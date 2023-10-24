@@ -16,7 +16,7 @@ function App() {
 
 
   return (
-    <>
+    <div style={{ display:'flex' }}>
 
       <Card1
         calculo={card1}
@@ -24,10 +24,10 @@ function App() {
       <Card2
         calculo={card2}
       />
-      <Button
-        changeState={()=>changeState()}
-      />
-    </>
+      {/* <Button
+        changeState={() => changeState()}
+      /> */}
+    </div>
   )
 }
 
